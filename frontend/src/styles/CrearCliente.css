@@ -1,0 +1,32 @@
+.form-page {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+.form-page form {
+    margin-top: 20px;
+}
+
+.form-page form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-page form div label {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.form-page form div input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 159, 159);
+    margin-bottom: 20px;
+}

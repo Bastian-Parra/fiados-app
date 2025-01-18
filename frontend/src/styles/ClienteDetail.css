@@ -1,0 +1,77 @@
+
+.clientes-detail-page {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+
+.clientes-detail-page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clientes-detail-page table th,
+.clientes-detail-page table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-word; 
+}
+
+.clientes-detail-page table th {
+    font-weight: bold;
+}
+
+.clientes-detail-page table td {
+    background-color: #f1f1f1;
+}
+
+.date-column {
+    width: 15%;
+}
+
+.amount-column {
+    width: 15%;
+}
+
+.description-column {
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.clientes-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-add-payment {
+    font-weight: 600;
+    color: #fff;
+    gap: 5px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #4caf50;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-add-payment:hover {
+    transition: 0.5s;
+    background-color: rgb(16, 185, 16);
+}
+
+
+

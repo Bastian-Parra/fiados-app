@@ -1,0 +1,104 @@
+.clientes-page {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+.tabla-clientes {
+    width: 100%;
+    border-collapse: collapse;
+    /* Elimina los espacios entre los bordes */
+    background-color: #f9f9f9;
+    /* Fondo para diferenciar filas */
+}
+
+.tabla-clientes th,
+.tabla-clientes td {
+    border: 1px solid #ccc;
+    /* Añade bordes suaves */
+    padding: 10px;
+    /* Espaciado interno para claridad */
+    text-align: left;
+    /* Alineación del texto */
+}
+
+.tabla-clientes tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.tabla-clientes tr:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-action {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-action.add {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-action.view {
+    background-color: #2196f3;
+    color: white;
+}
+
+.btn-action.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.medium-column {
+    width: 25%;
+}
+
+.narrow-column {
+    width: 15%;
+}
+
+.wide-column {
+    width: 75%;
+}
+
+.type-column {
+    width: 10%;
+}
+
+.clientes-page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-add-cliente {
+    font-weight: 600;
+    color: #fff;
+    gap: 5px;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #4caf50;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-add-cliente:hover {
+    transition: 0.5s;
+    background-color: rgb(16, 185, 16);
+}
+
+
+
+

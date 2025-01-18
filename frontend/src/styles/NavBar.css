@@ -1,0 +1,42 @@
+@import url("./Colors.css");
+
+.navbar {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    background-color: rgb(31, 31, 201);
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    
+}
+
+nav ul li a:hover {
+    background-color: rgb(25, 25, 151);
+    transition: 0.5s;
+}
+
