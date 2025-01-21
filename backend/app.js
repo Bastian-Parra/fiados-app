@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
+import path from "path";
+
 const app = express();
 
 // IMPORT ROUTES =============================
@@ -38,5 +40,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/users", usersRouter);
 app.use("/api/payments", paymentsRouter);
 app.use("/api/purchases", purchasesRouter);
+
+const _dirname = path.resolve()
+
+app.use(express.static(path.join(__dirname, "dist")))
+app.get("*", (req, res) => {
+  res.sendFile(path.join(_dirname, "dist", "index.html"))
+})
 
 export default app;

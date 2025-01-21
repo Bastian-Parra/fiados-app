@@ -4,7 +4,6 @@ import { createServer } from "http"
 import http from "http"
 import { Server as SocketServer} from "socket.io"
 
-
 const PORT = process.env.PORT || 3000;
 
 // create http server
@@ -34,7 +33,7 @@ connectDB()
   .then(() => {
     console.log("Los modelos han sido sincronizados con la base de datos.");
 
-    app.listen(PORT, () => {
+    server.listen(PORT, () => {
       console.log(`El server está corriendo en el puerto ${PORT}`);
     });
   })
